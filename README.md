@@ -17,7 +17,7 @@ Design direction, OKLCH token palette, typography, and motion craft rules are do
   - Runs at a fixed 10,000 Hz timestep inside a dedicated Web Worker (`public/workers/sim-worker.js`) with a synchronous TypeScript mirror (`lib/horology/physics.ts`).
   - Models Hooke's law hairspring torque, Swiss lever escapement unlock (`0°–1.8°`) and impulse (`1.8°–7.5°`) zones, Moebius lubrication state (`9010`, `9415`, `HP-1300`, `8200`), 6-position gravity poise (`DU`, `DD`, `CU`, `CD`, `CL`, `CR`), regulator curb-pin rate (`s/d`), and movable stud carrier beat error (`ms`).
 - **Four-Phase Apprenticeship Pedagogy (`/bench`)**:
-  - **1. Show** → **2. Guide** → **3. Solo** → **4. Debrief** across all 7 Course 1 lessons (`L1` First Look & Let-Down through `L7` Six-Position Regulation), plus **"Master finishes"** skip for previously passed Solo lessons.
+  - **1. Show** → **2. Guide** → **3. Solo** → **4. Debrief** across all 11 Course 1 lessons (`L01` Orientation & Baseline Listening through `L11` Motion Works, Blued Hands & Final Casing), plus **"Master finishes"** skip for previously passed Solo lessons.
   - Enforces physical assembly preconditions, exact Bergeon screwdriver blade widths (`0.80 mm`, `1.20 mm`, `1.60 mm`), wrist bracing (`Shift`), left-hand unscrew direction (`R` on ETA `420`), Moebius oil selection & meniscus dosage, and compartmented dust-covered parts tray (`P`).
 - **Slide-Up Witschi Acoustic Timegrapher Ribbon (`T` on `/bench`)**:
   - Live `var(--blued-steel)` rising/falling acoustic dot trace over the running movement with daily rate (`s/d`), balance amplitude (`°`), beat error (`ms`), lift angle `44°`, 6-position cradle selector, and live regulator/stud micrometric sliders.
