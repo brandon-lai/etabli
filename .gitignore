@@ -32,8 +32,9 @@ pnpm-debug.log*
 .env*
 !.env.example
 
-# vercel
+# vercel & supabase temp
 .vercel
+/supabase/.temp
 
 # typescript
 *.tsbuildinfo

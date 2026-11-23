@@ -13,8 +13,8 @@ Design direction, OKLCH token palette, typography, and motion craft rules are do
 - **Full-Bleed Interactive 3D Unitas 6497-1 Movement (`/`, `/bench`, `/explore`)**:
   - 20 horologically ordered assemblies with real ETA part numbers (`100` Mainplate through `301` Regulator Index & Curb Pins), *Côtes de Genève* striping, mirror-polished *anglage* bevels, *perlage* baseplate, spoked gilded brass gear train, crimson Verneuil ruby jewels in gold chatons, Incabloc lyre shock springs, blued steel screws (including the left-hand-threaded crown wheel screw `420` with three-slot head), and metallic Nivarox flat-ribbon hairspring.
   - Automatic graceful fallback to an interactive **2D Technical Horological Blueprint** (`ETA 6497-1`) on devices without WebGL2.
-- **10 kHz WebAssembly Horology Physics Engine (`sim/horology.ts` → `public/wasm/horology.wasm`)**:
-  - Runs at a fixed 10,000 Hz timestep inside a dedicated Web Worker (`public/workers/horology-sim-worker.js`) with a synchronous TypeScript mirror (`lib/horology/physics.ts`).
+- **10 kHz WebAssembly Horology Physics Engine (`sim/wasm/horology.as.ts` → `public/wasm/horology.wasm`)**:
+  - Runs at a fixed 10,000 Hz timestep inside a dedicated Web Worker (`public/workers/sim-worker.js`) with a synchronous TypeScript mirror (`lib/horology/physics.ts`).
   - Models Hooke's law hairspring torque, Swiss lever escapement unlock (`0°–1.8°`) and impulse (`1.8°–7.5°`) zones, Moebius lubrication state (`9010`, `9415`, `HP-1300`, `8200`), 6-position gravity poise (`DU`, `DD`, `CU`, `CD`, `CL`, `CR`), regulator curb-pin rate (`s/d`), and movable stud carrier beat error (`ms`).
 - **Four-Phase Apprenticeship Pedagogy (`/bench`)**:
   - **1. Show** → **2. Guide** → **3. Solo** → **4. Debrief** across all 7 Course 1 lessons (`L1` First Look & Let-Down through `L7` Six-Position Regulation), plus **"Master finishes"** skip for previously passed Solo lessons.
